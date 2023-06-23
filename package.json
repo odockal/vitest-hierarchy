@@ -1,0 +1,16 @@
+{
+  "name": "test-hierarchy",
+  "version": "1.0.0",
+  "type": "module",
+  "script": {},
+  "description": "Project to demonstate how are the test hooks processed in vitest",
+  "scripts": {
+    "test": "vitest run src/suite.spec.ts",
+    "build": "tsc --build && node dist/main.js"
+  },
+  "author": "Ondrej Dockal",
+  "license": "apache-2.0",
+  "devDependencies": {
+    "vitest": "^0.32.2"
+  }
+}
